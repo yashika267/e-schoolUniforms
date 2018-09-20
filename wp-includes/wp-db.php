@@ -1528,10 +1528,7 @@ class wpdb {
 			}
 
 			if ( WP_DEBUG ) {
-				@print($this->dbh);
 				print($host);
-				@print($this->dbuser);
-				@print($this->dbpassword);
 				print($port);
 				print($socket);
 				print($client_flags);
