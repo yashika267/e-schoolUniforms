@@ -1528,7 +1528,7 @@ class wpdb {
 			}
 
 			if ( WP_DEBUG ) {
-				print($this->dbh);
+				@ print($this->dbh);
 				print($host);
 				print($this->dbuser);
 				print($this->dbpassword);
