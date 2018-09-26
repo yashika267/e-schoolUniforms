@@ -20,25 +20,29 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'demhgkhc905iqa');
+// define('DB_NAME', 'demhgkhc905iqa');
+define('DB_NAME', 'heroku_b40be70f50b3e15');
 
 /** MySQL database username */
-define('DB_USER', 'tdqpfubupbbkos');
+// define('DB_USER', 'tdqpfubupbbkos');
+define('DB_USER', 'bc350343980650');
 
 /** MySQL database password */
-define('DB_PASSWORD', '74ea942d90a854611d2c0fc3846d7d988b751a3d3974dc9727ae6f83bffa4293');
+// define('DB_PASSWORD', '74ea942d90a854611d2c0fc3846d7d988b751a3d3974dc9727ae6f83bffa4293');
+define('DB_PASSWORD', 'eb62435');
 
 /** MySQL hostname */
-define('DB_HOST', 'ec2-54-247-98-162.eu-west-1.compute.amazonaws.com:5432');
+// define('DB_HOST', 'ec2-54-247-98-162.eu-west-1.compute.amazonaws.com:5432');
+define('DB_HOST', 'eu-cdbr-west-02.cleardb.net');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
-#define('DB_CHARSET', 'utf8mb4');
+// define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
-define('DB_PORT', '5432');
+// define('DB_PORT', '5432');
 
 /**#@+
  * Authentication Unique Keys and Salts.
