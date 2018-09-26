@@ -29,7 +29,7 @@ define('DB_USER', 'bc350343980650');
 
 /** MySQL database password */
 // define('DB_PASSWORD', '74ea942d90a854611d2c0fc3846d7d988b751a3d3974dc9727ae6f83bffa4293');
-define('DB_PASSWORD', 'eb62435');
+define('DB_PASSWORD', 'eb62435c');
 
 /** MySQL hostname */
 // define('DB_HOST', 'ec2-54-247-98-162.eu-west-1.compute.amazonaws.com:5432');
