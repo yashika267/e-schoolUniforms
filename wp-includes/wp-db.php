@@ -1609,9 +1609,6 @@ class wpdb {
 
 			$this->ready = true;
 
-			//WP Query Gone Away Error Fix
-			$this->query("set session wait_timeout=6000");
-
 			$this->set_sql_mode();
 			$this->select( $this->dbname, $this->dbh );
 
