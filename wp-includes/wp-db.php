@@ -1528,10 +1528,6 @@ class wpdb {
 			}
 
 			if ( WP_DEBUG ) {
-				print($host);
-				print($port);
-				print($socket);
-				print($client_flags);
 				mysqli_real_connect( $this->dbh, $host, $this->dbuser, $this->dbpassword, null, $port, $socket, $client_flags );
 			} else {
 				@mysqli_real_connect( $this->dbh, $host, $this->dbuser, $this->dbpassword, null, $port, $socket, $client_flags );
